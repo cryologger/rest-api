@@ -18,6 +18,8 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 
 ## Variables
 
+Data that can be accessed from the Cryologger API is split into two categories: 1) meterological and 2) diagnostic. The meteorological variables pertain to the data that is collected from the various instruments on the weather station. The diagnostic variables provide detailed infromation regarding the operation and health of the equipment. 
+
 ### Meterological
 **Table 1.**  List of CF convention compliant meterological varaibles that can be queried from the Cryologger API. 
 | Variable Name            | Unit   | Description                                                         | CF compliant |
@@ -26,13 +28,13 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 | air_temperature          | K      | Air temperature                                                     |      Yes     |
 | relative_humidity        | %      | Relative humidity                                                   |      Yes     |
 | air_pressure             | Pa     | Air pressure                                                        |      Yes     |
-| platform_pitch           | degree | Pitch angle                                                         |      Yes     |
-| platform_roll            | degree | Roll angle                                                          |      Yes     |
 | solar_irradiance         | W m-2  | Solar irradiance                                                    |      Yes     |
 | wind_speed               | m s-1  | Wind speed                                                          |      Yes     |
 | wind_from_direction      | degree | Wind direction                                                      |      Yes     |
 | wind_speed_of_gust       | m s-1  | Wind gust speed                                                     |      Yes     |
 | wind_gust_from_direction | degree | Wind gust direction                                                 |      Yes     |
+| platform_pitch           | degree | Pitch angle                                                         |      Yes     |
+| platform_roll            | degree | Roll angle                                                          |      Yes     |
 
 ### Diagnostic 
 **Table 2.**  List of diagnostic varaibles that can be queried from the Cryologger API.
