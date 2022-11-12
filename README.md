@@ -1,10 +1,19 @@
 # Cryologger REST API Documentation
 
 ## Introduction
-The Cryologger API can be accessed from http://api.cryologger.org/
+The Cryologger API can be accessed from https://api.cryologger.org/
 
 ## API Query Format
 
+### Parameters
+
+| Parameter | Description                                            | Required |
+|-----------|--------------------------------------------------------|----------|
+| imei      | Unique identifier                                      | Yes      |
+| field     | Meteorological or diagnostic variable(s) to be queried | No       |
+| records   | Number of records to be requested                      | No       |
+
+### Query Structure
 ```https://api.cryologger.org/data?imei=300434063398110&field=air_temperature&records=5```
 
 ## Variables
