@@ -14,6 +14,9 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 | records   | Number of records to be requested                      | No       |
 
 ### Query Structure
+
+
+Example API query:
 ```https://api.cryologger.org/data?imei=300434063398110&field=air_temperature&records=5```
 
 ## Variables
@@ -24,7 +27,7 @@ Data that can be accessed from the Cryologger API is split into two categories: 
 **Table 1.**  List of CF convention compliant meterological varaibles that can be queried from the Cryologger API. 
 | Variable Name            | Unit   | Description                                                         | CF compliant |
 |--------------------------|--------|---------------------------------------------------------------------|:------------:|
-| time                     | s      | Number of seconds since 00:00:00 UTC on January 1, 1970 (Unix time) |      Yes     |
+| time                     | s      | Number of seconds since January 1, 1970 00:00:00 UTC (Unix time)    |      Yes     |
 | air_temperature          | K      | Air temperature                                                     |      Yes     |
 | relative_humidity        | %      | Relative humidity                                                   |      Yes     |
 | air_pressure             | Pa     | Air pressure                                                        |      Yes     |
