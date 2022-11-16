@@ -54,6 +54,6 @@ Data that can be accessed from the Cryologger API is split into two categories: 
 | internal_relative_humidity |       %      | Internal humidity                                      |
 | internal_air_pressure      |      Pa      | Internal air pressure                                  |
 | voltage                    |       V      | Battery voltage                                        |
-| transmit_duration          |       s      | Duration of the previous SBD message                   |
-| transmit_status            |              | Diagnostic code                                        |
-| message_counter            |              | Counter to track number of program iterations          |
+| transmit_duration          |       s      | Duration of the previous Iridium SBD transmission      |
+| transmit_status            |              | Iridium transmission diagnostic code                   |
+| message_counter            |              | Counter to track program iterations/resets             |
