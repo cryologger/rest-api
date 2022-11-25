@@ -63,16 +63,7 @@ Data that can be accessed from the Cryologger API is split into two categories: 
 | Variable Name            | Unit   | Description                                                         | CF compliant |
 |--------------------------|--------|---------------------------------------------------------------------|:------------:|
 | time                     | s      | Number of seconds since January 1, 1970 00:00:00 UTC (Unix time)    |      Yes     |
-| air_temperature          | K      | Air temperature                                                     |      Yes     |
-| relative_humidity        | %      | Relative humidity                                                   |      Yes     |
-| air_pressure             | Pa     | Air pressure                                                        |      Yes     |
-| solar_irradiance         | W m-2  | Solar irradiance                                                    |      Yes     |
-| wind_speed               | m s-1  | Wind speed                                                          |      Yes     |
-| wind_from_direction      | degree | Wind direction                                                      |      Yes     |
-| wind_speed_of_gust       | m s-1  | Wind gust speed                                                     |      Yes     |
-| wind_gust_from_direction | degree | Wind gust direction                                                 |      Yes     |
-| platform_pitch           | degree | Pitch angle                                                         |      Yes     |
-| platform_roll            | degree | Roll angle                                                          |      Yes     |
+
 
 ### Standard Diagnostic Variables
 **Table 2.**  List of diagnostic varaibles that can be queried from the Cryologger API.
