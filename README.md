@@ -72,8 +72,8 @@ Data that can be accessed from the Cryologger API is split into two categories: 
 | pressure_int             | Pa     | Internal air pressure                                               |
 | pitch                    | degree | Pitch angle                                                         |
 | roll                     | degree | Roll angle                                                          |
-| heading                  | degree | Tilt-compensated heading                                            |
-| latitude                 | degree | Tilt-compensated heading                                            |
+| heading                  | degree | Latitude                                                            |
+| latitude                 | degree | Longitude                                                           |
 | longitude                | degree | Tilt-compensated heading                                            |
 | satellites               |        | Number of satellites in view                                        |
 | hdop                     |        | HDOP                                                                |
