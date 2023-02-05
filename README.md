@@ -9,12 +9,11 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 
 | Parameter | Description                        | Required |
 |-----------|----------------------------------- |----------|
-| uid       | Unique identifier                  | Yes      |
+| uid       | Unique instrument identifier       | Yes      |
 | field     | Variable(s) to be queried          | No       |
 | records   | Number of records to be requested  | No       |
 
 ### Query Structure
-
 
 #### Automatic Weather Station (AWS)
 
@@ -33,10 +32,30 @@ Base API URL:
 Example API query:
 ```https://api.cryologger.org/itb?uid=HFD&field=latitude&field=longitude&records=24```
 
+#### API Keys
+An API key is required to invoke the Cryologger API, which must be provided using `x-api-key` in the header. At present, it is not possible to send an API key as query string parameter.
+
+
+#### Examples
+
+##### Curl
+```
+curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://api.cryologger.org/aws?station_id=ALW&records=100"
+```
+
+##### Python
+```
+import requests
+import pandas as pd
+headers = {'x-api-key': "4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g"}
+url = "https://api.cryologger.org/aws?station_id=ALW&records=100"
+response = requests.get(url, headers=headers)
+df = pd.read_json(response.text)
+```
 
 ## Variables
 
-Data that can be accessed from the Cryologger API is split into two categories: 1) sensor and 2) diagnostic. The sensor variables pertain to the data that is collected from the various instruments onboard the Cryologger platform (e.g., meterological). The diagnostic variables are standardized across all Cryologer applications provide detailed information regarding the operational health of the equipment. 
+Data that can be accessed from the Cryologger API is split into two categories: 1) sensor and 2) diagnostic. The sensor variables pertain to the data that is collected from the various instruments onboard the Cryologger platform (e.g., meterological). Additional diagnostic variables, which are standardized across all Cryologer applications, are also available upon request. These variables provide detailed information regarding the operational health of the equipment.
 
 ### Automatic Weather Station (AWS)
 
@@ -78,3 +97,6 @@ Data that can be accessed from the Cryologger API is split into two categories: 
 | satellites               |        | Number of satellites in view                                        |
 | hdop                     |        | HDOP                                                                |
 | voltage                  | V      | Battery voltage                                                     |
+
+
+
