@@ -47,7 +47,7 @@ curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://ap
 ```
 import requests
 import pandas as pd
-headers = {'x-api-key': "4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g"}
+headers = {'x-api-key': '4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g'}
 url = "https://api.cryologger.org/aws?station_id=ALW&records=100"
 response = requests.get(url, headers=headers)
 df = pd.read_json(response.text)
