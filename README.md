@@ -1,7 +1,7 @@
 # Cryologger REST API Documentation
 
 ## Introduction
-The Cryologger REST API is a new way to access data collected from deployed Cryologger instruments. Data are easily accessed in a standard JSON format.
+The Cryologger REST API is a new way to access data collected from deployed Cryologger instruments. Data can be easily accessed in a standard JSON format.
 
 ## API Query Format
 
