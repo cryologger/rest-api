@@ -35,7 +35,7 @@ https://api.cryologger.org/itb?uid=HFD
 ```
 **500 most recent samples of wind speed from three automatic weather stations**
 ```
-https://api.cryologger.org/aws?uid=ALW&uid=MPC&uid=NPK&field=wind_speed&records=500```
+https://api.cryologger.org/aws?uid=ALW&uid=MPC&uid=NPK&field=wind_speed&records=500
 ```
 
 ### API Keys
@@ -61,6 +61,8 @@ df = pd.read_json(response.text)
 ## Variables
 
 Data accessible from the Cryologger API is split into two categories: 1) sensor and 2) diagnostic. Sensor variables pertain to the data that is collected from the various instruments onboard the Cryologger platform (e.g., meterology, location, etc.). Additional diagnostic variables, which are standardized across all Cryologer applications, are also available upon request. These variables provide detailed information regarding the operational health of the equipment.
+
+It is important to note the availability of 
 
 ### Automatic Weather Station (AWS)
 
@@ -94,9 +96,9 @@ Data accessible from the Cryologger API is split into two categories: 1) sensor 
 | pressure_int             | Pa     | Internal air pressure                                               |
 | pitch                    | degree | Pitch angle                                                         |
 | roll                     | degree | Roll angle                                                          |
-| heading                  | degree | Latitude                                                            |
-| latitude                 | degree | Longitude                                                           |
-| longitude                | degree | Tilt-compensated heading                                            |
+| heading                  | degree | Tilt-compensated heading                                            |
+| latitude                 | degree | Latitude                                                            |
+| longitude                | degree | Longitude                                                           |
 | satellites               |        | Number of satellites in view                                        |
-| hdop                     |        | HDOP                                                                |
+| hdop                     |        | Horizontal dilution of precision (HDOP)                             |
 | voltage                  | V      | Battery voltage                                                     |
