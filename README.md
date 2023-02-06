@@ -20,9 +20,13 @@ As shown in Table 1, the `uid` parameter is required for all Cryologger API invo
 
 #### API Query Examples
 
-**Base API URL:**
+**Base API URLs:**
 ```
+# Automatic weather station
 https://api.cryologger.org/aws
+
+# Ice tracking beacon
+https://api.cryologger.org/itb
 ```
 
 **Past 24 hours of all data varaibles from a single automatic weather station**
