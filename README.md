@@ -16,7 +16,7 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 
 ### Query Structure
 
-As shown in Table 1, the `uid` parameter is required for all Cryologger API invocations. If the `field` parameter is omitted, all data variables shown in Tables 1 & 2 will be returned. If the `records` field is omitted, only the 24 most recent data samples will be returned.
+As shown in Table 1, the `uid` parameter is required for all Cryologger API calls. If the `field` parameter is omitted, all the data variables shown in Tables 1 & 2 will be returned. If the `records` field is omitted, only the 24 most recent data samples will be returned.
 
 #### API Query Examples
 
@@ -52,9 +52,13 @@ curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://ap
 ```
 import requests
 import pandas as pd
+# Specify API key in header
 headers = {'x-api-key': '4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g'}
+# Format URL based on desired data request
 url = "https://api.cryologger.org/aws?uid=ALW"
+# Invoke API
 response = requests.get(url, headers=headers)
+# Create pandas dataframe from the API response
 df = pd.read_json(response.text)
 ```
 
