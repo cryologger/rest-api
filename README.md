@@ -18,7 +18,7 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 
 As shown in Table 1, the `uid` parameter is required for all Cryologger API calls. If the `field` parameter is omitted, all the data variables shown in Tables 1 & 2 will be returned. If the `records` field is omitted, only the 24 most recent data samples will be returned.
 
-#### API Query Examples
+### API Query Examples
 
 **Base API URLs:**
 ```
