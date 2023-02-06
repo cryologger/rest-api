@@ -32,9 +32,8 @@ Base API URL:
 Example API query:
 ```https://api.cryologger.org/itb?uid=HFD&field=latitude&field=longitude&records=24```
 
-#### API Keys
+### API Keys
 An API key is required to invoke the Cryologger API, which must be provided using `x-api-key` in the header. At present, it is not possible to send an API key as query string parameter.
-
 
 #### Examples
 
@@ -97,6 +96,3 @@ Data that can be accessed from the Cryologger API is split into two categories: 
 | satellites               |        | Number of satellites in view                                        |
 | hdop                     |        | HDOP                                                                |
 | voltage                  | V      | Battery voltage                                                     |
-
-
-
