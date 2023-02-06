@@ -106,3 +106,13 @@ It is important to note the availability of
 | satellites               |        | Number of satellites in view                                        |
 | hdop                     |        | Horizontal dilution of precision (HDOP)                             |
 | voltage                  | V      | Battery voltage                                                     |
+
+
+## Cryologger Deployments
+
+| Instrument                | Unique ID | Latitude   | Longitude  | Location             | Place Name
+|---------------------------|:---------:|------------|------------|----------------------|------------------|
+| Automatic Weather Station	| ALW	      |            |            | Arctic Bay, Nunavut  | Qakuqtaqtujut    |
+| Automatic Weather Station | MPC	      |            |            | Arctic Bay, Nunavut  | Pullataujaq      |
+| Automatic Weather Station	| NPK	      |            |            | Milne Fiord, Nunavut |                  |
+| Automatic Weather Station | YYP	      |            |            | Milne Fiord, Nunavut |                  |
