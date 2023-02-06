@@ -1,13 +1,13 @@
 # Cryologger REST API Documentation
 
 ## Introduction
-The Cryologger API can be accessed from https://api.cryologger.org/
+The Cryologger REST API is a new way to access data collected from deployed Cryologger instruments. Data are easily accessed in a standard JSON format.
 
 ## API Query Format
 
 ### Parameters
 
-**Table 1.**  List of API query parameters. 
+**Table 1.**  List of available API query parameters and associated properties. 
 | Parameter | Description                        | Required | Default |
 |-----------|----------------------------------- |----------|---------|
 | uid       | Unique instrument identifier       | Yes      |         |
@@ -16,7 +16,7 @@ The Cryologger API can be accessed from https://api.cryologger.org/
 
 ### Query Structure
 
-As shown in Table 1, the `uid` parameter is required for all Cryologger API calls. If the `field` parameter is omitted, all the data variables shown in Tables 1 & 2 will be returned. If the `records` field is omitted, only the 24 most recent data samples will be returned.
+The API query parameter are displayed in Table 1. Notably, the `uid` parameter is required for all Cryologger API calls. The `field` parameter is optional, however if omitted, all data variables listed in Tables 1 & 2 will be returned. The `records` field is also optional, and if omitted, only the 24 most recent data samples will be returned.
 
 ### API Query Examples
 
@@ -45,7 +45,7 @@ An API key is required to invoke the Cryologger API, which must be provided usin
 
 ##### Curl
 ```
-curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://api.cryologger.org/aws?uid=ALW"
+curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://api.cryologger.org/aws?uid=ALW&records=5"
 ```
 
 ##### Python
@@ -55,11 +55,17 @@ import pandas as pd
 # Specify API key in header
 headers = {'x-api-key': '4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g'}
 # Format URL based on desired data request
-url = "https://api.cryologger.org/aws?uid=ALW"
+url = "https://api.cryologger.org/aws?uid=ALW&records=5"
 # Invoke API
 response = requests.get(url, headers=headers)
 # Create pandas dataframe from the API response
 df = pd.read_json(response.text)
+```
+
+API JSON response:
+
+```
+
 ```
 
 ## Variables
