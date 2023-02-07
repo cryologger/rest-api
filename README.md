@@ -1,9 +1,17 @@
 # Cryologger REST API Documentation
 
 ## Introduction
-The Cryologger REST API is a new way to access data collected from deployed Cryologger instruments. Data can be easily accessed in a standard JSON format.
+The Cryologger REST API is a new way to access data collected from deployed Cryologger instruments. Data can be easily accessed in a standard JSON format. 
 
-## API Query Format
+## API Description
+
+```
+# Automatic weather station
+https://api.cryologger.org/aws
+
+# Ice tracking beacon
+https://api.cryologger.org/itb
+```
 
 ### Parameters
 
@@ -16,18 +24,13 @@ The Cryologger REST API is a new way to access data collected from deployed Cryo
 
 ### Query Structure
 
-The API query parameter are displayed in Table 1. Notably, the `uid` parameter is required for all Cryologger API calls. The `field` parameter is optional, however if omitted, all data variables listed in Tables 1 & 2 will be returned. The `records` field is also optional, and if omitted, only the 24 most recent data samples will be returned.
+The API query parameters are shown in Table 1. The `uid` parameter is required for all Cryologger API calls. The `field` parameter is optional, however if omitted, all data variables listed in Tables 1 & 2 will be returned. The `records` field is also optional, and if omitted, only the 24 most recent data samples will be returned.
 
 ### API Query Examples
 
-**Base API URLs:**
-```
-# Automatic weather station
-https://api.cryologger.org/aws
 
-# Ice tracking beacon
-https://api.cryologger.org/itb
-```
+**Base API URLs:**
+
 
 **Past 24 hours of all data varaibles from a single automatic weather station**
 ```
