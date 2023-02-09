@@ -28,15 +28,11 @@ The API query parameters are shown in Table 1. The `uid` parameter is required f
 
 ### API Query Examples
 
-
-**Base API URLs:**
-
-
-**Past 24 hours of all data varaibles from a single automatic weather station**
+Request past 24 hours of all data varaibles from a single automatic weather station
 ```
 https://api.cryologger.org/itb?uid=HFD
 ```
-**500 most recent samples of wind speed from three automatic weather stations**
+Request 500 most recent samples of wind speed from three different weather stations
 ```
 https://api.cryologger.org/aws?uid=ALW&uid=MPC&uid=NPK&field=wind_speed&records=500
 ```
@@ -48,7 +44,7 @@ An API key is required to invoke the Cryologger API, which must be provided usin
 
 ##### Curl
 ```
-curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://api.cryologger.org/aws?uid=ALW&records=5"
+curl -H "x-api-key: 4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g" -X GET "https://api.cryologger.org/aws?uid=NPK&field=temperature_ext&field=wind_speed&records=10"
 ```
 
 ##### Python
@@ -58,24 +54,24 @@ import pandas as pd
 # Specify API key in header
 headers = {'x-api-key': '4u4en4b845anvq7isst793wg4e5y5ex2xk73nw2g'}
 # Format URL based on desired data request
-url = "https://api.cryologger.org/aws?uid=ALW&records=5"
+url = "https://api.cryologger.org/aws?uid=NPK&field=temperature_ext&field=wind_speed&records=10"
 # Invoke API
 response = requests.get(url, headers=headers)
 # Create pandas dataframe from the API response
 df = pd.read_json(response.text)
 ```
 
-API JSON response:
+#### API JSON Response:
 
 ```
-
+[{"uid": "NPK", "unixtime": 1675947601, "temperature_ext": -30.86, "wind_speed": 0.16}, {"uid": "NPK", "unixtime": 1675944001, "temperature_ext": -31.45, "wind_speed": 0.0}, {"uid": "NPK", "unixtime": 1675940401, "temperature_ext": -31.45, "wind_speed": 0.33}, {"uid": "NPK", "unixtime": 1675936801, "temperature_ext": -30.98, "wind_speed": 0.16}, {"uid": "NPK", "unixtime": 1675933201, "temperature_ext": -29.54, "wind_speed": 0.22}, {"uid": "NPK", "unixtime": 1675929601, "temperature_ext": -28.76, "wind_speed": 0.16}, {"uid": "NPK", "unixtime": 1675926001, "temperature_ext": -28.67, "wind_speed": 0.02}, {"uid": "NPK", "unixtime": 1675922401, "temperature_ext": -29.28, "wind_speed": 0.36}, {"uid": "NPK", "unixtime": 1675918801, "temperature_ext": -30.08, "wind_speed": 0.27}, {"uid": "NPK", "unixtime": 1675915201, "temperature_ext": -30.84, "wind_speed": 0.3}]
 ```
 
 ## Variables
 
 Data accessible from the Cryologger API is split into two categories: 1) sensor and 2) diagnostic. Sensor variables pertain to the data that is collected from the various instruments onboard the Cryologger platform (e.g., meterology, location, etc.). Additional diagnostic variables, which are standardized across all Cryologer applications, are also available upon request. These variables provide detailed information regarding the operational health of the equipment.
 
-It is important to note the availability of 
+It is important to note the availability of weather variables varies between stations.
 
 ### Automatic Weather Station (AWS)
 
