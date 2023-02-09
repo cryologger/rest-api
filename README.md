@@ -117,7 +117,10 @@ It is important to note the availability of weather variables varies between sta
 
 | Instrument                | Unique ID | Latitude   | Longitude  | Location             | Place Name
 |---------------------------|:---------:|------------|------------|----------------------|------------------|
-| Automatic Weather Station	| ALW	      |            |            | Arctic Bay, Nunavut  | Qakuqtaqtujut    |
-| Automatic Weather Station | MPC	      |            |            | Arctic Bay, Nunavut  | Pullataujaq      |
-| Automatic Weather Station	| NPK	      |            |            | Milne Fiord, Nunavut |                  |
-| Automatic Weather Station | YYP	      |            |            | Milne Fiord, Nunavut |                  |
+| Automatic Weather Station	| ALW	      | 73.581863	 | -83.654776 | Arctic Bay, Nunavut  | Qakuqtaqtujut    |
+| Automatic Weather Station | MPC	      | 73.4802	   | 85.6052    | Arctic Bay, Nunavut  | Pullataujaq      |
+| Automatic Weather Station	| NPK	      | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley    |
+| Automatic Weather Station | YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier    |
+
+	
+	
