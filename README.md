@@ -76,23 +76,23 @@ It is important to note the availability of weather variables varies between sta
 ### Automatic Weather Station (AWS)
 
 **Table 2.**  List of meterological varaibles available to be queried from the Cryologger AWS API. 
-| Variable Name            | Unit   | Description                                                         | 
-|--------------------------|--------|---------------------------------------------------------------------|
-| unixtime                 | s      | Number of seconds since January 1, 1970 00:00:00 UTC (Unix time)    |
-| temperature_int          | C      | Internal air temperature                                            |
-| humidity_int             | %      | Internal relative humidity                                          |
-| pressure_int             | Pa     | Internal air pressure                                               |
-| temperature_ext          | C      | Air temperature                                                     |
-| humidity_ext             | %      | Relative humidity                                                   |
-| pressure_ext             | Pa     | Air pressure                                                        |
-| solar                    | W m-2  | Solar irradiance                                                    |
-| wind_speed               | km h-1 | Wind speed                                                          |
-| wind_direction           | degree | Wind direction                                                      |
-| wind_gust_speed          | km h-1 | Wind gust speed                                                     |
-| wind_gust_direction      | degree | Wind gust direction                                                 |
-| pitch                    | degree | Pitch angle                                                         |
-| roll                     | degree | Roll angle                                                          |
-| voltage                  | V      | Battery voltage                                                     |
+| Variable Name            | Unit   | Description                                                         | CF Convention Equivalent |
+|--------------------------|--------|---------------------------------------------------------------------|--------------------------|
+| unixtime                 | s      | Number of seconds since January 1, 1970 00:00:00 UTC (Unix time)    | time                     |
+| temperature_int          | C      | Internal air temperature                                            |                          |
+| humidity_int             | %      | Internal relative humidity                                          |                          |
+| pressure_int             | Pa     | Internal air pressure                                               |                          |
+| temperature_ext          | C      | Air temperature                                                     | air_temperature          |
+| humidity_ext             | %      | Relative humidity                                                   | relative_humidity        |
+| pressure_ext             | Pa     | Air pressure                                                        | air_pressure             |
+| solar                    | W m-2  | Solar irradiance                                                    | solar_irradiance         |
+| wind_speed               | km h-1 | Wind speed                                                          | wind_speed               |
+| wind_direction           | degree | Wind direction                                                      | wind_from_direction      |
+| wind_gust_speed          | km h-1 | Wind gust speed                                                     | wind_speed_of_gust       |
+| wind_gust_direction      | degree | Wind gust direction                                                 | wind_gust_from_direction |
+| pitch                    | degree | Pitch angle                                                         | platform_pitch           |
+| roll                     | degree | Roll angle                                                          | platform_roll            |
+| voltage                  | V      | Battery voltage                                                     |                          |
 
 ### Ice Tracking Beacon (ITB)
 
