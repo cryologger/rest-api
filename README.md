@@ -88,7 +88,7 @@ It is important to note the availability of weather variables varies between sta
 | solar                    | W m-2  | Solar irradiance                                                    | solar_irradiance         |
 | wind_speed               | m s-1  | Wind speed                                                          | wind_speed               |
 | wind_direction           | degree | Wind direction                                                      | wind_from_direction      |
-| wind_gust_speed          | m a-1  | Wind gust speed                                                     | wind_speed_of_gust       |
+| wind_gust_speed          | m s-1  | Wind gust speed                                                     | wind_speed_of_gust       |
 | wind_gust_direction      | degree | Wind gust direction                                                 | wind_gust_from_direction |
 | pitch                    | degree | Pitch angle of weather station                                      | platform_pitch           |
 | roll                     | degree | Roll angle of weather station                                       | platform_roll            |
