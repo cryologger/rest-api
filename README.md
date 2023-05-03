@@ -116,9 +116,16 @@ It is important to note the availability of weather variables varies between sta
 ## Cryologger Deployments
 
 ### Automatic Weather Station
-| Unique ID | Latitude   | Longitude  | Location             | Place Name       |
-|:---------:|------------|------------|----------------------|------------------|
-| ALW	    | 73.581863  | -83.654776 | Arctic Bay, Nunavut  | Qakuqtaqtujut    |
-| MPC	    | 73.4802	 | -85.6052   | Arctic Bay, Nunavut  | Pullataujaq      |
-| NPK	    | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley    |
-| YYP	    | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier    |
+| Unique ID | Latitude   | Longitude  | Location             | Name                  | Place Name    |
+|:---------:|------------|------------|----------------------|-----------------------|---------------|
+| OEG       | 69.3909    | -81.79963  | Igloolik, Nunavut    | Qalirusiq             | ᖃᓕᕈᓯᖅ        |
+| UBY       |            |            | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
+| ZTJ       |            |            | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
+| TDY       |            |            | Igloolik, Nunavut    | Naujaaliruluk         | ᓇᐅᔮᓕᕈᓗᒃ      |
+| LVY       |            |            | Igloolik, Nunavut    | Qaurnak               | ᖃᐅᕐᓇᒃ         |
+| YBL       |            |            | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
+| MPC	      |            |            | Arctic Bay, Nunavut  | Pullataujaq           |               |
+| ALW	      |            |            | Arctic Bay, Nunavut  | Qakuqtaqtujut         |               |
+| LOA	      |            |            | Arctic Bay, Nunavut  | Qikiqtatannak         |               |
+| NPK	      | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley         |               |
+| YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier         |               |
