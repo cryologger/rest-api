@@ -127,7 +127,7 @@ It is important to note the availability of weather variables varies between sta
 | MPC	      |            |            | Arctic Bay, Nunavut  | Pullataujaq           |               |
 | ALW	      |            |            | Arctic Bay, Nunavut  | Qakuqtaqtujut         |               |
 | LOA	      |            |            | Arctic Bay, Nunavut  | Qikiqtatannak         |               |
-| VKP	      |            |            | Pond Inlet, Nunavut  | Sannirut              |               |
+| VKP	      |            |            | Pond Inlet, Nunavut  | Sannirut              | ᓴᓐᓂᕈᑦ         |
 | VUU	      |            |            | Pond Inlet, Nunavut  | Taqqajaat             |               |
 | NPK	      | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley         |               |
 | YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier         |               |
