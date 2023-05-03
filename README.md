@@ -122,10 +122,12 @@ It is important to note the availability of weather variables varies between sta
 | UBY       |            |            | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
 | ZTJ       |            |            | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
 | TDY       |            |            | Igloolik, Nunavut    | Naujaaliruluk         | ᓇᐅᔮᓕᕈᓗᒃ      |
-| LVY       |            |            | Igloolik, Nunavut    | Qaurnak               | ᖃᐅᕐᓇᒃ         |
+| LVY       |            |            | Igloolik, Nunavut    | Qaurnak               | ᖃᐅᕐᓇᒃ        |
 | YBL       |            |            | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
 | MPC	      |            |            | Arctic Bay, Nunavut  | Pullataujaq           |               |
 | ALW	      |            |            | Arctic Bay, Nunavut  | Qakuqtaqtujut         |               |
 | LOA	      |            |            | Arctic Bay, Nunavut  | Qikiqtatannak         |               |
+| VKP	      |            |            | Pond Inlet, Nunavut  | Sannirut              |               |
+| VUU	      |            |            | Pond Inlet, Nunavut  | Taqqajaat             |               |
 | NPK	      | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley         |               |
 | YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier         |               |
