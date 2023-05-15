@@ -120,14 +120,14 @@ It is important to note the availability of weather variables varies between sta
 |:---------:|------------|------------|----------------------|-----------------------|---------------|
 | MPC	      | 73.560873  | -83.761054 | Arctic Bay, Nunavut  | Aqiggilik             | ᐊᕿᒋᓕᒃ        |
 | ALW	      | 73.52923   | -85.44611  | Arctic Bay, Nunavut  | Pullataujaq           | ᐳᓪᓚᑕᐅᔭᖅ      |
-| LOA	      |            |            | Arctic Bay, Nunavut  | Qikiqtatannak         | ᕿᑭᖅᑕᑕᓐᓇᒃ     |
-| UBY       |            |            | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
+| VUU	      |            |            | Arctic Bay, Nunavut  | Qikiqtatannak         | ᕿᑭᖅᑕᑕᓐᓇᒃ     |
+| UBY       | 69.57053   | -80.29736  | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
 | TDY       |            |            | Igloolik, Nunavut    | Naujaaliruluk         | ᓇᐅᔮᓕᕈᓗᒃ      |
-| ZTJ       | 69.57053   | -80.29736  | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
+| ZTJ       |            |            | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
 | YBL       |            |            | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
 | OEG       | 69.3909    | -81.79963  | Igloolik, Nunavut    | Qalirusiq             | ᖃᓕᕈᓯᖅ        |
 | LVY       |            |            | Igloolik, Nunavut    | Qaurnak               | ᖃᐅᕐᓇᒃ        |
 | VKP	      |            |            | Pond Inlet, Nunavut  | Sannirut              | ᓴᓐᓂᕈᑦ         |
-| VUU	      |            |            | Pond Inlet, Nunavut  | Taqqajaat             |               |
+| LOA	      |            |            | Pond Inlet, Nunavut  | Taqqajaat             |               |
 | NPK	      | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley         |               |
 | YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier         |               |
