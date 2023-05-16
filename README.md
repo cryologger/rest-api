@@ -124,7 +124,7 @@ It is important to note the availability of weather variables varies between sta
 | UBY       | 69.57053   | -80.29736  | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
 | TDY       |            |            | Igloolik, Nunavut    | Naujaaliruluk         | ᓇᐅᔮᓕᕈᓗᒃ      |
 | ZTJ       |            |            | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
-| YBL       |            |            | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
+| YBL       | 69.82437   | -77.67336  | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
 | OEG       | 69.3909    | -81.79963  | Igloolik, Nunavut    | Qalirusiq             | ᖃᓕᕈᓯᖅ        |
 | LVY       |            |            | Igloolik, Nunavut    | Qaurnak               | ᖃᐅᕐᓇᒃ        |
 | VKP	      |            |            | Pond Inlet, Nunavut  | Sannirut              | ᓴᓐᓂᕈᑦ         |
