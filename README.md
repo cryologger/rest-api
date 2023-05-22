@@ -118,16 +118,16 @@ It is important to note the availability of weather variables varies between sta
 ### Automatic Weather Station
 | Unique ID | Latitude   | Longitude  | Location             | Name                  | Place Name    |
 |:---------:|------------|------------|----------------------|-----------------------|---------------|
-| MPC	      | 73.560873  | -83.761054 | Arctic Bay, Nunavut  | Aqiggilik             | ᐊᕿᒋᓕᒃ        |
+| MPC	      | 73.56087   | -83.76105  | Arctic Bay, Nunavut  | Aqiggilik             | ᐊᕿᒋᓕᒃ        |
 | ALW	      | 73.52923   | -85.44611  | Arctic Bay, Nunavut  | Pullataujaq           | ᐳᓪᓚᑕᐅᔭᖅ      |
 | VUU	      | 72.73615   | -85.91475  | Arctic Bay, Nunavut  | Qikiqtatannak         | ᕿᑭᖅᑕᑕᓐᓇᒃ     |
+| TDY       | 70.12236   | -82.21672  | Igloolik, Nunavut    | Ivisaaruqtuuq         | ᐃᕕᓵᕈᖅᑑᖅ      |
+| LVY       | 69.85861   | -85.54392  | Igloolik, Nunavut    | Kalliraaq             |               |
 | UBY       | 69.57053   | -80.29736  | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
-| LVY       |            |            | Igloolik, Nunavut    | Naujaaliruluk         | ᓇᐅᔮᓕᕈᓗᒃ      |
 | YBL       |            |            | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
 | ZTJ       | 69.82437   | -77.67336  | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
-| OEG       | 69.3909    | -81.79963  | Igloolik, Nunavut    | Qalirusiq             | ᖃᓕᕈᓯᖅ        |
-| TDY       | 70.122361  | -82.216722 | Igloolik, Nunavut    | Ivisaaruqtuuq         |               |
+| OEG       | 69.39090   | -81.79963  | Igloolik, Nunavut    | Qalirusiq             | ᖃᓕᕈᓯᖅ        |
 | VKP	      |            |            | Pond Inlet, Nunavut  | Sannirut              | ᓴᓐᓂᕈᑦ         |
 | LOA	      |            |            | Pond Inlet, Nunavut  | Taqqajaat             |               |
-| NPK	      | 82.462486  | -80.736578 | Milne Fiord, Nunavut | Purple Valley         |               |
+| NPK	      | 82.46248   | -80.73657  | Milne Fiord, Nunavut | Purple Valley         |               |
 | YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier         |               |
