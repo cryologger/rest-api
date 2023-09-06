@@ -86,6 +86,7 @@ It is important to note the availability of weather variables varies between sta
 | humidity_ext             | %      | Relative humidity                                                   | relative_humidity        |
 | pressure_ext             | hPa    | Air pressure                                                        | air_pressure             |
 | solar                    | W m-2  | Solar irradiance                                                    | solar_irradiance         |
+| snow_depth               | cm     | Snow depth                                                          |                          |
 | wind_speed               | m s-1  | Wind speed                                                          | wind_speed               |
 | wind_direction           | degree | Wind direction                                                      | wind_from_direction      |
 | wind_gust_speed          | m s-1  | Wind gust speed                                                     | wind_speed_of_gust       |
@@ -131,7 +132,8 @@ It is important to note the availability of weather variables varies between sta
 | VKP	      | 72.84904   | -76.11705  | Pond Inlet, Nunavut  | Sannirut              | ᓴᓐᓂᕈᑦ         |
 | LOA	      | 72.48496   | -79.75987  | Pond Inlet, Nunavut  | Taqqajaat             | ᑐᖅᑲᔮᑦ         |
 | NPK	      | 82.46248   | -80.73657  | Milne Fiord, Nunavut | Purple Valley         |               |
-| YYP	      | 82.44952   | -80.33186  | Milne Fiord, Nunavut | Milne Glacier         |               |
+| FON	      | 82.71045   | -81.28070  | Milne Fiord, Nunavut | Milne Ice Shelf       |               |
+
 
 **Table 5.**  List of weather stations to be deployed.
 | Unique ID | Latitude   | Longitude  | Location             | Name                  | Place Name    |
