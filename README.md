@@ -119,21 +119,21 @@ Please note: The data are intended solely for informational purposes and the ava
 
 ### Automatic Weather Station
 **Table 4.**  List of deployed weather stations and locations that can be queried from the Cryologger ITB API. 
-| Unique ID | Latitude   | Longitude  | Location             | Name                  | Place Name    |
-|:---------:|------------|------------|----------------------|-----------------------|---------------|
-| ALW	      | 73.56087   | -83.76105  | Arctic Bay, Nunavut  | Aqiggilik             | ᐊᕿᒋᓕᒃ        |
-| MPC	      | 73.52923   | -85.44611  | Arctic Bay, Nunavut  | Pullataujaq           | ᐳᓪᓚᑕᐅᔭᖅ      |
-| VUU	      | 72.73615   | -85.91475  | Arctic Bay, Nunavut  | Qikiqtatannak         | ᕿᑭᖅᑕᑕᓐᓇᒃ     |
-| TDY       | 70.12236   | -82.21672  | Igloolik, Nunavut    | Ivisaaruqtuuq         | ᐃᕕᓵᕈᖅᑑᖅ      |
-| LVY       | 69.85861   | -85.54392  | Igloolik, Nunavut    | Kalliraaq             | ᑲᓪᓕᕌᖅ        |
-| UBY       | 69.57053   | -80.29736  | Igloolik, Nunavut    | Kapuiviit Nuvua       | ᑲᐳᐃᕖᑦ ᓄᕗᐊ   |
-| YBL       | 69.82586   | -82.13961  | Igloolik, Nunavut    | Naujaaruluit          | ᓇᐅᔮᕈᓗᐃᑦ      |
-| ZTJ       | 69.82437   | -77.67336  | Igloolik, Nunavut    | Nuvuit                | ᓄᕗᐃᑦ         |
-| OEG       | 69.39090   | -81.79963  | Igloolik, Nunavut    | Qalirusiq             | ᖃᓕᕈᓯᖅ        |
-| VKP	      | 72.84904   | -76.11705  | Pond Inlet, Nunavut  | Sannirut              | ᓴᓐᓂᕈᑦ         |
-| LOA	      | 72.48496   | -79.75987  | Pond Inlet, Nunavut  | Taqqajaat             | ᑐᖅᑲᔮᑦ         |
-| NPK	      | 82.46248   | -80.73657  | Milne Fiord, Nunavut | Purple Valley         |               |
-| FON	      | 82.71045   | -81.28070  | Milne Fiord, Nunavut | Milne Ice Shelf       |               |
+| Unique ID | Latitude   | Longitude  | Location             | Name                      | Place Name       |
+|:---------:|------------|------------|----------------------|---------------------------|------------------|
+| ALW	      | 73.56087   | -83.76105  | Arctic Bay, Nunavut  | Aqiggilik                 | ᐊᕿᒋᓕᒃ           |
+| MPC	      | 73.52923   | -85.44611  | Arctic Bay, Nunavut  | Innaarulaalikuluup Nuvua  | ᐃᓐᓈᕈᓛᓕᑯᓘᑉ ᓄᕗᐊ |
+| VUU	      | 72.73615   | -85.91475  | Arctic Bay, Nunavut  | Qikiqtatannak             | ᕿᑭᖅᑕᑕᓐᓇᒃ        |
+| TDY       | 70.12236   | -82.21672  | Igloolik, Nunavut    | Ivisaaruqtuuq             | ᐃᕕᓵᕈᖅᑑᖅ         |
+| LVY       | 69.85861   | -85.54392  | Igloolik, Nunavut    | Kalliraaq                 | ᑲᓪᓕᕌᖅ            |
+| UBY       | 69.57053   | -80.29736  | Igloolik, Nunavut    | Kapuiviit Nuvua           | ᑲᐳᐃᕖᑦ ᓄᕗᐊ       |
+| YBL       | 69.82586   | -82.13961  | Igloolik, Nunavut    | Naujaaruluit              | ᓇᐅᔮᕈᓗᐃᑦ          |
+| ZTJ       | 69.82437   | -77.67336  | Igloolik, Nunavut    | Nuvuit                    | ᓄᕗᐃᑦ             |
+| OEG       | 69.39090   | -81.79963  | Igloolik, Nunavut    | Qalirusiq                 | ᖃᓕᕈᓯᖅ            |
+| VKP	      | 72.84904   | -76.11705  | Pond Inlet, Nunavut  | Sannirut                  | ᓴᓐᓂᕈᑦ             |
+| LOA	      | 72.48496   | -79.75987  | Pond Inlet, Nunavut  | Taqqajaat                 | ᑐᖅᑲᔮᑦ             |
+| NPK	      | 82.46248   | -80.73657  | Milne Fiord, Nunavut | Purple Valley             |                   |
+| FON	      | 82.71045   | -81.28070  | Milne Fiord, Nunavut | Milne Ice Shelf           |                   |
 
 
 **Table 5.**  List of weather stations to be deployed.
